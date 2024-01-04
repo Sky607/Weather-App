@@ -28,16 +28,16 @@ else{
 
     }
     else if(res.current.condition.text == "Sunny" || res.current.condition.text =="Clear"){
-        document.body.style.backgroundImage = "url('Sunny.webp')"
+        document.body.style.backgroundImage = "url('./Sunny.webp')"
         document.getElementById("logo").style.color = "white"
     }
     else if(res.current.condition.text == "Cloudy" || res.current.condition.text == "Partly cloudy"|| res.current.condition.text=="Patchy rain possible"){
-            document.body.style.backgroundImage = "url('cloudy.avif')"
+            document.body.style.backgroundImage = "url('./cloudy.avif')"
             document.getElementById("logo").style.color = "white"
     }
     else if(res.current.condition.text == "Raining" || res.current.condition.text == "Light freezing rain" || res.current.condition.text == "Lightning"
     || res.current.condition.text == "Heavy rain"){
-            document.body.style.backgroundImage = "url('rainy.jpg')"
+            document.body.style.backgroundImage = "url('./rainy.jpg')"
             document.getElementById("logo").style.color = "white"
     }
 
