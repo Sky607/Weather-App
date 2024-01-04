@@ -23,7 +23,7 @@ else{
     })        
     .then(res=>{
     if(res.current.condition.text == "Mist"){
-    document.body.style.backgroundImage = "url('Mist.jpg')"
+    document.body.style.backgroundImage = "url('./Mist.jpg')"
     document.getElementById("logo").style.color = "black"
 
     }
