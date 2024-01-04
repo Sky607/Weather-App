@@ -69,11 +69,11 @@ left: 20px;
 color:white;
   }
   /* Media queries for devices */
-  @media only screen  and (min-width:320px) and (max-width:600px) {
+  @media only screen  and (min-width:0px) and (max-width:600px) {
 
 .container> .details{
     position: relative;
-    left: 30px;
+    left: 10px;
     top: 90px;   
 }
 .topelement{
