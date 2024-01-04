@@ -23,21 +23,21 @@ else{
     })        
     .then(res=>{
     if(res.current.condition.text == "Mist"){
-    document.body.style.backgroundImage = "url('Mist.jpg')"
+    document.body.style.backgroundImage = "url('./images/Mist.jpg')"
     document.getElementById("logo").style.color = "black"
 
     }
     else if(res.current.condition.text == "Sunny" || res.current.condition.text =="Clear"){
-        document.body.style.backgroundImage = "url('Sunny.webp')"
+        document.body.style.backgroundImage = "url('./images/Sunny.webp')"
         document.getElementById("logo").style.color = "white"
     }
     else if(res.current.condition.text == "Cloudy" || res.current.condition.text == "Partly cloudy"|| res.current.condition.text=="Patchy rain possible"){
-            document.body.style.backgroundImage = "url('cloudy.avif')"
+            document.body.style.backgroundImage = "url('./images/cloudy.avif')"
             document.getElementById("logo").style.color = "white"
     }
     else if(res.current.condition.text == "Raining" || res.current.condition.text == "Light freezing rain" || res.current.condition.text == "Lightning"
     || res.current.condition.text == "Heavy rain"){
-            document.body.style.backgroundImage = "url('rainy.jpg')"
+            document.body.style.backgroundImage = "url('./images/rainy.jpg')"
             document.getElementById("logo").style.color = "white"
     }
 
