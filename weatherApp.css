@@ -1,0 +1,130 @@
+body{
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100%;     
+    font-family:cursive;   
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+.container{
+    margin-top:20px ;
+    padding: 0;
+    background-color: none;
+    height: 350px;   
+}
+#content{
+    display:none;
+    color: black;
+}
+.container> .details{
+    display:grid;
+    grid-template-columns: 15% 20% 20% 0% ;
+    gap:20px;
+    position: relative;
+    left: 130px;
+    top: 140px;
+    font-family:cursive;  
+}
+h1{
+    font-size:25px;
+    color: black;
+    text-align: center;
+}
+.topelement{
+    display: grid;
+    grid-template-columns: 10% 10%  ;
+    gap:20px;
+}
+ #cityName ,.button{
+    
+    border: 3px solid black;
+    border-radius: 16px;
+    position: relative;
+    top: 90px;
+    left:550px;
+    font-weight:bold ;   
+}
+input[type="text"]{
+    padding: 8px;
+    width:400px;
+    font-size: 22px;
+    text-align: center;
+}
+.button{
+    left:690px;
+    font-size: 25px;
+   
+}
+b{
+color: black;
+font-size:20px
+}
+.logo> i{
+font-size: 70px;
+position: relative;
+top:20px;
+left: 20px;
+color:white;
+  }
+  /* Media queries for devices */
+  @media only screen  and (min-width:320px) and (max-width:600px) {
+
+.container> .details{
+    position: relative;
+    left: 30px;
+    top: 90px;   
+}
+.topelement{
+    display: grid;
+    grid-template-columns: 20% 0%;
+    gap:20px;
+}
+    #cityName,.button{
+    position: relative;
+    left:110px;    
+}
+.button{
+    left:200px;
+    font-size: 25px;
+}
+input[type="text"]{ 
+    width:290px;  
+}
+    }
+
+    @media only screen and (min-width:600.1px) and (max-width:768px) {
+.container> .details{
+    position: relative;
+    left: 30px;
+}
+    .topelement{
+    display: grid;
+    grid-template-columns: 20% 10%;
+}
+    #cityName,.button{
+    position: relative;
+    left:200px;
+}
+.button{
+    left:280px;
+    font-size: 25px;
+}
+input[type="text"]{ 
+    width:300px;  
+}
+    }
+@media only screen and (min-width:768.1px) and (max-width:992px) {
+.topelement{
+    display: grid;
+    grid-template-columns: 20% 0%;
+}
+    #cityName ,.button{
+    position: relative;
+    left:300px;
+}
+.button{
+    left:420px;
+}
+}
