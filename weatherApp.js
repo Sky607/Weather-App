@@ -22,7 +22,7 @@ else{
      }
     })        
     .then(res=>{
-    if(res.current.condition.text == "Mist"){
+    if(res.current.condition.text == "Mist" || res.current.condition.text== "Fog"){
     document.body.style.backgroundImage = "url('./images/Mist.jpg')"
     document.getElementById("logo").style.color = "black"
 
