@@ -69,7 +69,7 @@ left: 20px;
 color:white;
   }
   /* Media queries for devices */
-  @media only screen  and (min-width:0px) and (max-width:600px) {
+  @media only screen  and (min-width:320px) and (max-width:600px) {
 
 .container> .details{
     position: relative;
@@ -83,10 +83,10 @@ color:white;
 }
     #cityName,.button{
     position: relative;
-    left:110px;    
+    left:60px;    
 }
 .button{
-    left:200px;
+    left:150px;
     font-size: 25px;
 }
 input[type="text"]{ 
