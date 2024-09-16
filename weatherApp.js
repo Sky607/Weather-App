@@ -7,7 +7,7 @@ if (event.key === "Enter") {
 });
 function weatherInfomation(){
    let city=document.getElementById("cityName").value
-   var url='https://api.weatherapi.com/v1/current.json?key=d0ccc89532ce459499953059232812&q='+city+''
+   var url='https://api.weatherapi.com/v1/current.json?key="<your-api-key>"&q='+city+''
 if(city=="" ){  
     alert("Please enter a city")
         }
